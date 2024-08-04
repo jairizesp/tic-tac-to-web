@@ -6,7 +6,7 @@ async function bootstrap() {
 
   app.enableCors({
     credentials: true,
-    origin: 'https://tic-tac-toe-client-1wsgtiv6y-jairizs-projects.vercel.app',
+    origin: 'https://tic-tac-toe-client-khaki.vercel.app',
   });
 
   await app.listen(3000);
