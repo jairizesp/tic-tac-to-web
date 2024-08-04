@@ -17,5 +17,8 @@
                 "DELETE"
             ]
         }
-    ]
+    ],
+    "env": {
+        "DB_CONNECTION_STRING": "mongodb+srv://esposojairizedward:A3srbDtF8GqBCuNG@cluster0.ujdjbxo.mongodb.net/"
+      }
 }
