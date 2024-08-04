@@ -3,9 +3,8 @@
     "builds": [
         {
             "src" : "src/main.ts",
-            "use" : "@vercel/static-build"
+            "use" : "@vercel/node"
         }
-        
     ],
     "routes": [
         {
