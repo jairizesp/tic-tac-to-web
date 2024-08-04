@@ -24,8 +24,4 @@ import config from './config/db.connection';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {
-  constructor() {
-    console.log(typeof process.env.DB_USERNAME);
-  }
-}
+export class AppModule {}
